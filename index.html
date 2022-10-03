@@ -1,12 +1,89 @@
+
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!-- 3 types of styling (CSS)
+1. inline
+2. internal 
+3. external-->
+
 <!DOCTYPE html>
-<html>
-    <title>GoDev Git Training</title>
-    <head>
-        <!-- head definitions go here -->
-    </head>
-    <body>
-        <!-- the content goes here -->
-        <h4>Hello World!</h4>
-        <p>This is Git Hub Traing</p>
-    </body>
+<html lang="en">
+
+<head>
+  
+     
+    <link rel="stylesheet" href="style.css" />
+    <title>Tax Calculator of Pakistan 2022 - 2023</title>
+    <!-- this is internal styling which is given within the style --->
+    <style>
+      p{
+        color: blue;
+        font-size: 30px;
+      }
+      .order{
+          color: rgb(255, 0, 0);
+
+      }
+
+       
+      #uniqueheading{
+        color: cornflowerblue;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+    
+</head>
+<!-- this is inline style which is given within the tags --->
+<body>
+    <h1 style="color:rgb(72, 117, 3)"> 
+      This is the Tax Calculator as per budget presented by Government of Pakistan
+    </h1>
+    <p>
+        Our HTML editor updates the webview automatically in real-time as you write code.
+    </p>
+    <h5 class="h4">This is css style external</h5>
+    <img src="Sunset.png" alt="sunset" width="300" height="300">
+  <ol type="a" class="order"> 
+    <li><b>This is ordered list</b></li>
+    <li><b>line 2</b>
+        <ul>
+            <li><b> This is un ordered list</b></li>
+            <li><b> Line 2</b></li></ul>
+    </li>
+    </ol>
+    <h4 id="uniqueheading">This is a Table</h4>
+    <table border="1">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <br>
+    <form> 
+    <b>Username: </b><input type="text" />
+    <br>     <br>
+    <b>Password:</b>&nbsp;<input type="password" />
+     <br>     <br>
+     <b>Gender: Male </b><input type="radio" name="gender" /> <b>Female:</b> <input type="radio" name="gender"/>
+     <br>     <br>
+     Gender: Male <input type="checkbox" name="gender" /> Female: <input type="checkbox" name="gender"/> <br>     <br>
+    <button>Submit</button> </form>
+    
+    <script src="script.js"></script>
+</body>
+
 </html>
